@@ -41,9 +41,7 @@ https://https://ai-review-platform-production.up.railway.app/docs
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/Ai-Review-Platform.git
-```
-
+git clone https://github.com/roshankumar161161/Ai-Review-Platform.git
 Install frontend
 
 ```bash
