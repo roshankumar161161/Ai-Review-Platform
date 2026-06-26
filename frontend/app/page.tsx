@@ -25,9 +25,9 @@ export default function Home() {
           videoId = query.split("/").pop() || "";
         }
 
-        analysisRes = await fetch(`http://127.0.0.1:8000/analyze/${videoId}`);
+        analysisRes = await fetch(`https://ai-review-platform-production.up.railway.app/analyze/${videoId}`);
       } else {
-        analysisRes = await fetch(`http://127.0.0.1:8000/analyze-product/${query}`);
+        analysisRes = await fetch(`https://ai-review-platform-production.up.railway.app/analyze-product/${query}`);
       }
 
       const analysis = await analysisRes.json();
